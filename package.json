@@ -22,7 +22,7 @@
     },
     "scripts": {
         "prettier": "prettier --write .",
-        "build": "napi build --platform --release ./dist",
-        "test": "node ./dist/test.mjs"
+        "build": "napi build --platform --release ./Build",
+        "test": "node ./Test/index.mjs"
     }
 }
