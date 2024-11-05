@@ -310,6 +310,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { Sum } = nativeBinding
+const { Demo } = nativeBinding
 
-module.exports.Sum = Sum
+module.exports.Demo = Demo

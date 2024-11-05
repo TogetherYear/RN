@@ -1,2 +1,5 @@
 import * as N from '../Build/index.js';
-console.log(N.Sum(5, 6));
+
+N.Demo().then(() => {
+    console.log('NApi');
+});
